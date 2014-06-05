@@ -1,10 +1,11 @@
 === Already Existing Tags ===
 
 Contributors: digitalemphasis
+Donate link: http://www.digitalemphasis.com/donate/
 Tags: tags, tagging, auto tagging, auto tagger, automatic tags,automatic tagging, existing tags
 Requires at least: 3.0
 Tested up to: 3.9.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,13 +13,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==
+
 Auto tagging function compares your 'already existing tags' with the content of your post each time you create or edit/save one. The found tags will be automatically assigned.
 
-= Features = 
+= Features =
+
 * Easy configuration.
 * You can select which categories will be affected and which ones will be ignored by the plugin.
 * Clean uninstall option: If this option is enabled, the plugin will leave absolutely no traces when uninstalling.
-* Visit [www.digitalemphasis.com](http://www.digitalemphasis.com) or follow [@digitalemphasis](http://www.twitter.com/digitalemphasis) on Twitter for more info.
+* Visit [www.digitalemphasis.com](http://www.digitalemphasis.com) or follow [@digitalemphasis](http://twitter.com/digitalemphasis) on Twitter for more info.
 
 
 == Installation ==
@@ -31,8 +34,7 @@ Auto tagging function compares your 'already existing tags' with the content of 
 == Frequently Asked Questions ==
 
 = Will the automatic tagging funcion works once the plugin is installed and activated? =
-
-No. Firstly You need to configure which categories will be included in the auto tagging function.
+No. Firstly you need to select the 'Automatic tagging' checkbox and configure which categories will be included in the auto tagging function.
 
 
 == Screenshots ==
@@ -42,5 +44,10 @@ No. Firstly You need to configure which categories will be included in the auto 
 
 == Changelog ==
 
+= 1.1 =
+* The .php files of the plugin cannot be accessed directly from now.
+* Fixed a bug with the .css style of the administration panel in some environments.
+* Fixed some other small bugs when WP_DEBUG is enabled.
+
 = 1.0 =
-* Initial Release.
+* Initial release.

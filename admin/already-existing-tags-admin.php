@@ -1,3 +1,5 @@
+<?php defined('ABSPATH') or die('Cannot access pages directly.');?>
+
 <div class="wrap">
 
 <h2>Already Existing Tags</h2>
@@ -48,11 +50,11 @@ foreach ($categories as $key => $value) {
 
 <input type="checkbox" id="aet_automatic_tagging_included_categories" name="aet_automatic_tagging_included_categories[]" value="<?php echo $value->term_id;?>"
 
-  <?php
-  if (is_array(get_option('aet_automatic_tagging_included_categories')) && in_array($value->term_id, get_option('aet_automatic_tagging_included_categories'))) {
-    echo 'checked="checked"';
-  }
-  ?>
+    <?php
+    if (is_array(get_option('aet_automatic_tagging_included_categories')) && in_array($value->term_id, get_option('aet_automatic_tagging_included_categories'))) {
+      echo 'checked="checked"';
+    }
+    ?>
 
 />
 
@@ -60,9 +62,9 @@ foreach ($categories as $key => $value) {
 
 </div>
 
-  <?php
-}
-?>
+    <?php
+  }
+  ?>
 
 </div>
 
