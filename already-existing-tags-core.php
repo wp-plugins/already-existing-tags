@@ -1,4 +1,5 @@
 <?php
+
 defined('ABSPATH') or die('Cannot access pages directly.');
 function automatic_tagging() {
   $the_post_id = get_the_ID();

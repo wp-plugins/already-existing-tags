@@ -88,5 +88,13 @@ foreach ($categories as $key => $value) {
 <?php submit_button();?>
 
 </form>
+    
+<h3>Do you like this plugin?</h3>
+    
+    <ul>
+        
+    <li><a href="http://wordpress.org/support/view/plugin-reviews/already-existing-tags" target="_blank">Please, rate it on the repository</a></li>
+    
+    </ul>
 
 </div>

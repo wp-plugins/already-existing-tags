@@ -5,7 +5,7 @@
 Plugin Name: Already Existing Tags
 Plugin URI: http://www.digitalemphasis.com/wordpress-plugins/already-existing-tags/
 Description: 'Already Existing Tags' tries to make your life as blogger easier with the auto tagging function.
-Version: 1.1
+Version: 1.2
 Author: digitalemphasis
 Author URI: http://www.digitalemphasis.com/
 License: GPLv2 or later
