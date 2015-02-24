@@ -2,10 +2,10 @@
 
 Contributors: digitalemphasis
 Donate link: http://www.digitalemphasis.com/donate/
-Tags: tags, tagging, auto tagging, auto tagger, automatic tags,automatic tagging, existing tags
+Tags:  auto tagger, auto tagging, automatic tagging, automatic tags, existing tags, tagger, tagging, tags
 Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 1.2
+Tested up to: 4.1
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,12 +44,17 @@ No. Firstly you need to select the 'Automatic tagging' checkbox and configure wh
 
 == Changelog ==
 
+= 1.3 =
+* Ensure compatibility with WordPress 4.1
+* Added support for 'QUICK' and 'BULK' edit modes.
+* Slight changes at the administration panel.
+
 = 1.2 =
 * Ensure compatibility with WordPress 4.0
 * Added 'Do you like this plugin?' section to the administration panel.
 
 = 1.1 =
-* The .php files of the plugin cannot be accessed directly from now.
+* From now on, the .php files of the plugin are protected from direct access.
 * Fixed a bug with the .css style of the administration panel in some environments.
 * Fixed some other small bugs when WP_DEBUG is enabled.
 

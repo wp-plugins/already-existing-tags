@@ -1,13 +1,20 @@
-#categories_container .categories_block {
-  display: inline-block;
-  width: 200px;
-  border: 1px solid #FF8000;
-  margin: 15px;
-  padding: 10px;
-  text-align: left;
-  font-size: 10px;
+.wrap h2 {
+    color: #000033;
+    font-weight: bold;
 }
-
-div.wrap h3 {
-  color: #FF8000;
+.wrap h3 {
+    color: #FF8000;
+}
+.form-table td {
+    text-align: left;
+}
+#categories_container .categories_block {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #000033;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 10px;
 }
