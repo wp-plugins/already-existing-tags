@@ -2,10 +2,10 @@
 
 Contributors: digitalemphasis
 Donate link: http://www.digitalemphasis.com/donate/
-Tags:  auto tagger, auto tagging, automatic tagging, automatic tags, existing tags, tagger, tagging, tags
+Tags:  tags, tagger, tagging, auto tagger, auto tagging, automatic tagging, automatic tags
 Requires at least: 3.0
-Tested up to: 4.1
-Stable tag: 1.3
+Tested up to: 4.2
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,14 +14,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Auto tagging function compares your 'already existing tags' with the content of your post each time you create or edit/save one. The found tags will be automatically assigned.
+The auto tagging function compares your 'already existing tags' with the content of your post each time you create or edit/save one. The found tags will be automatically assigned.
+
 
 = Features =
 
 * Easy configuration.
 * You can select which categories will be affected and which ones will be ignored by the plugin.
 * Clean uninstall option: If this option is enabled, the plugin will leave absolutely no traces when uninstalling.
-* Visit [www.digitalemphasis.com](http://www.digitalemphasis.com) or follow [@digitalemphasis](http://twitter.com/digitalemphasis) on Twitter for more info.
+* Visit [www.digitalemphasis.com](http://www.digitalemphasis.com) or follow [@digitalemphasis](https://twitter.com/digitalemphasis) on Twitter for more info.
 
 
 == Installation ==
@@ -43,6 +44,9 @@ No. Firstly you need to select the 'Automatic tagging' checkbox and configure wh
 
 
 == Changelog ==
+= 1.4 =
+* Ensure compatibility with WordPress 4.2
+* Added 'check/uncheck' all categories and other slight changes at the administration panel.
 
 = 1.3 =
 * Ensure compatibility with WordPress 4.1

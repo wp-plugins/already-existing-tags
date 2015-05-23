@@ -1,4 +1,4 @@
-.wrap h2 {
+.wrap h2, .wrap h4, .check_all {
     color: #000033;
     font-weight: bold;
 }

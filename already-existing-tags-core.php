@@ -2,7 +2,7 @@
 defined('ABSPATH') or die('Cannot access pages directly.');
 
 function automatic_tagging($the_post_id) {
-    $post = get_post($the_post_id);
+	$post = get_post($the_post_id);
     if ($post->post_type == 'post') {
         $post_categories = wp_get_post_categories($the_post_id);
         $aet_automatic_tagging_included_categories = get_option('aet_automatic_tagging_included_categories');
@@ -13,7 +13,8 @@ function automatic_tagging($the_post_id) {
         if (is_array($aet_automatic_tagging_included_categories)) {
             $comparison = array_intersect($post_categories, $aet_automatic_tagging_included_categories);
             $matches = count($comparison);
-        } else {
+        }
+        else {
             $matches = 0;
         }
         if (($existingtags) && ($matches > 0)) {

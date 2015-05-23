@@ -3,7 +3,7 @@
 Plugin Name: Already Existing Tags
 Plugin URI: http://www.digitalemphasis.com/wordpress-plugins/already-existing-tags/
 Description: 'Already Existing Tags' tries to make your life as blogger easier with the auto tagging function.
-Version: 1.3
+Version: 1.4
 Author: digitalemphasis
 Author URI: http://www.digitalemphasis.com/
 License: GPLv2 or later
@@ -12,7 +12,7 @@ License: GPLv2 or later
 defined('ABSPATH') or die('Cannot access pages directly.');
 
 function aet_the_settings() {
-    register_setting('aet-settings-group', 'aet_automatic_tagging');
+	register_setting('aet-settings-group', 'aet_automatic_tagging');
     register_setting('aet-settings-group', 'aet_automatic_tagging_included_categories');
     register_setting('aet-settings-group', 'aet_clean_uninstall');
 }
