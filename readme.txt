@@ -2,7 +2,7 @@
 
 Contributors: digitalemphasis
 Donate link: http://www.digitalemphasis.com/donate/
-Tags:  tags, tagger, tagging, auto tagger, auto tagging, automatic tagging, automatic tags
+Tags:  admin, automatic, automatic tagging, automatic tags, auto tagger, auto tagging, post, posts, tagger, tagging, tags
 Requires at least: 3.0
 Tested up to: 4.2
 Stable tag: 1.4
